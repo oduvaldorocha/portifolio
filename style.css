@@ -558,6 +558,11 @@ header{
   font-family: var(--font-secundary);
   font-size: 1.5rem;
   font-weight: bolder;
+  margin-top: 0.9rem;
+}
+
+#prazo, #js{
+  margin-top: 1.5rem;
 }
 
 .sessao-orcamento input[type="number"]{
