@@ -188,7 +188,7 @@ header{
 
 .menu{
   position: absolute;
-  top: 40%;
+  top: 10%;
   left: 20%;
   transform: translate(-50% -50%);
 }
@@ -274,7 +274,8 @@ header{
 
 .sessao-conhecimentos{
   background-color: #f5f5f5;
-  height: 100%;
+  /*height: 100%;*/
+  height: 100vh;
 }
 
 .sessao-header{
@@ -328,12 +329,13 @@ header{
 .projetos{
   display: flex;
   justify-content: space-evenly;
+  height: 100vh; /* acrescentado */
   margin-bottom: 2rem;
 }
 
 .card{
   width: 18rem;
-  height: 25rem;
+  height: 35rem;
   position: relative;
 }
 
@@ -386,7 +388,7 @@ header{
   color: #eee;
   font-weight: 400;
   width: 80%;
-  margin-bottom: 2rem;
+  margin-bottom: 8rem;
 }
 
 .btn{
